@@ -39,7 +39,7 @@ public class StatisticsApplication
         //return new CustomUserInfoTokenServices(sso.getUserInfoUri(),sso.getClientId());
     }
     @Configuration
-    static class CustomConversionsConfig{
+    static class CustomConversionsConfig{ //
         @Bean
         public CustomConversions customConversions(){
             return null;
